@@ -23,11 +23,10 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 
 ## 📸 UI Screenshots
 
-> Add the screenshots you provided into `/assets/` and they will show here:
 
 | Documents Upload | Recordings & Recorder | Quick Tools | Supabase Console |
 |---|---:|:---|
-| `/assets/doc_process.png` | `/assets/audio.png` | `/assets/advance_tools.png` | `/assets/supabase.png` |
+| `./assets/doc_process.png` | `./assets/audio.png` | `./assets/advance_tools.png` | `./assets/supabase.png` |
 
 ---
 
