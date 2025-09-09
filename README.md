@@ -1,6 +1,6 @@
 # 🌌 Aurora AI — Advanced RAG + Speech AI Assistant
 
-![Aurora AI Banner](/assets/Screenshot 2025-09-10 023455.png)
+![Aurora AI Banner](/assets/Screenshot2025-09-10023455.png)
 
 **Aurora AI** is an intelligent assistant that combines **Retrieval-Augmented Generation (RAG)** with **Speech AI** to provide fast, accurate insights from your documents and audio.  
 Built with **Streamlit** for a beautiful interactive UI and **Supabase** for persistent storage, Aurora AI is designed for document understanding, audio transcription, semantic search, and conversation memory.
