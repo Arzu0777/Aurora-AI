@@ -1,6 +1,6 @@
 # 🌌 Aurora AI — Advanced RAG + Speech AI Assistant
 
-![Aurora AI Banner](./assets/banner.png)
+![Aurora AI Banner](./assets/Screenshot 2025-09-10 023455.png)
 
 **Aurora AI** is an intelligent assistant that combines **Retrieval-Augmented Generation (RAG)** with **Speech AI** to provide fast, accurate insights from your documents and audio.  
 Built with **Streamlit** for a beautiful interactive UI and **Supabase** for persistent storage, Aurora AI is designed for document understanding, audio transcription, semantic search, and conversation memory.
@@ -25,9 +25,9 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 
 > Add the screenshots you provided into `/assets/` and they will show here:
 
-| Dashboard | Recorder | Supabase Console |
+| Documents Upload | Recordings & Recorder | Quick Tools | Supabase Console |
 |---|---:|:---|
-| `./assets/screenshot1.png` | `./assets/screenshot2.png` | `./assets/screenshot3.png` |
+| `./assets/Screenshot 2025-09-10 023353.png` | `./assets/Screenshot 2025-09-10 023407.png` | `./assets/Screenshot 2025-09-10 023428.png` | `./assets/Screenshot 2025-09-06 192519.png` |
 
 ---
 
@@ -169,23 +169,6 @@ Run:
 ```bash
 docker-compose up --build -d
 ```
-
----
-
-## ☁️ Cloud Deployments (high level)
-
-### Streamlit Cloud
-- Push to GitHub, connect repo in Streamlit sharing, set main file to `enhanced_rag_app_v2.py`, add secrets via the UI.
-
-### Heroku (quick)
-- `Procfile`:
-```
-web: streamlit run enhanced_rag_app_v2.py --server.port=$PORT --server.address=0.0.0.0
-```
-- Add buildpacks or environment vars in Heroku settings, then `git push heroku main`.
-
-### GCP / AWS
-- Use App Engine, Cloud Run, or EC2. Containerized apps can be deployed directly with Docker images; set environment variables via platform secrets.
 
 ---
 
