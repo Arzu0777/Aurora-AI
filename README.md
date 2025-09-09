@@ -26,8 +26,7 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 
 | Documents Upload | Recordings & Recorder | Quick Tools | Supabase Console |
 |---|---:|:---|
-| `assets/doc_process.png` | `assets/audio.png` | `assets/advance_tools.png` | `assets/supabase.png` |
-
+| ![Document](assets/doc_process.png) | ![Audio Recorder](assets/audio.png) | ![Supabase](assets/supabase.png) | ![Advanced Tools](assets/advance_tools.png) |
 ---
 
 ## 🧩 Tech Stack
