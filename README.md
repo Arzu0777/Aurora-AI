@@ -35,8 +35,6 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 - **Frontend / App**: Streamlit (Python)  
 - **Storage / DB**: Supabase (Postgres + Storage)  
 - **Models / APIs**: Google Gemini (optional), Whisper (OpenAI or local), HuggingFace Transformers, Cohere (optional)  
-- **Containerization**: Docker + Docker Compose  
-- **Hosting**: Streamlit Cloud / Heroku / GCP / AWS
 
 ---
 
