@@ -26,7 +26,7 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 
 | Documents Upload | Recordings & Recorder | Quick Tools | Supabase Console |
 |---|---:|:---|
-| `./assets/doc_process.png` | `./assets/audio.png` | `./assets/advance_tools.png` | `./assets/supabase.png` |
+| `assets/doc_process.png` | `assets/audio.png` | `assets/advance_tools.png` | `assets/supabase.png` |
 
 ---
 
@@ -40,18 +40,15 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 
 ---
 
-## 📦 Repository Layout (suggested)
+## 📦 Repository Layout 
 ```
 /
-├─ assets/                # screenshots, banner
-├─ data/                  # sample data, test documents
-├─ src/ or app/           # main Streamlit app and helpers
+├─ assets/                # screenshots
 ├─ requirements.txt
 ├─ Dockerfile
 ├─ docker-compose.yml
-├─ .env.example
-├─ DEPLOYMENT_GUIDE.md    # (kept for reference)
-└─ README.md              # <- this file
+├─ .env
+└─ README.md              
 ```
 
 ---
