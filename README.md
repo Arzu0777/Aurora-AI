@@ -250,12 +250,6 @@ Welcome contributions. Please:
 
 ---
 
-## 📄 License
-
-This project is released under the **MIT License**. See [LICENSE](LICENSE) for details.
-
----
-
 ## 📬 Credits & Contact
 
 Developed by **Arzu** — (GitHub: `Arzu0777`)  
