@@ -9,6 +9,22 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 
 ---
 
+## 📑 Table of Contents
+- [Highlights](#-highlights)
+- [UI Screenshots](#-ui-screenshots)
+- [Tech Stack](#-tech-stack)
+- [Quick Start](#-quick-start-local)
+- [Supabase Schema](#️-supabase-database-schema)
+- [Docker](#-docker-recommended-for-reproducible-deploys)
+- [Performance](#-performance--best-practices)
+- [Troubleshooting](#-troubleshooting)
+- [Security](#-security--production-notes)
+- [Roadmap](#️-roadmap--ideas)
+- [Contributing](#-contributing)
+- [Credits](#-credits--contact)
+
+---
+
 ## 🚀 Highlights
 
 - 🎙️ **Real-time audio recording** (browser) + transcription  
@@ -42,9 +58,9 @@ Built with **Streamlit** for a beautiful interactive UI and **Supabase** for per
 /
 ├─ assets/                # screenshots
 ├─ requirements.txt
-├─ Dockerfile
-├─ docker-compose.yml
-├─ .env
+├─ hybrid_search.py
+├─ rag_app.py
+├─ speech_processor_enhanced.py
 └─ README.md              
 ```
 
@@ -88,7 +104,7 @@ STREAMLIT_SERVER_PORT=8501
 
 ### 4. Run
 ```bash
-streamlit run enhanced_rag_app_v2.py
+streamlit run rag_app.py
 # Open http://localhost:8501
 ```
 
