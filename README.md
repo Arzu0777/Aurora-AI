@@ -146,7 +146,7 @@ grant all on public.document_metadata to anon, service_role;
 
 ## 🐳 Docker (Recommended for reproducible deploys)
 
-**Dockerfile (example)** — included in repo (or create):
+**Dockerfile (example)** :
 ```dockerfile
 FROM python:3.9-slim
 RUN apt-get update && apt-get install -y ffmpeg curl build-essential && rm -rf /var/lib/apt/lists/*
